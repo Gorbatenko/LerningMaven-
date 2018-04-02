@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ClientService" />
         <module name="DAO" />
+        <module name="MavenHomeEdition" />
         <module name="MenuService" />
         <module name="ProductService" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="ClientService" target="1.5" />
       <module name="DAO" target="1.5" />
+      <module name="MavenHomeEdition" target="1.5" />
       <module name="MenuService" target="1.5" />
       <module name="ProductService" target="1.5" />
     </bytecodeTargetLevel>
