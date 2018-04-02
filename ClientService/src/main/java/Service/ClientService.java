@@ -1,7 +1,5 @@
 package Service;
 
-import java.io.IOException;
-
 public interface ClientService {
 
     void addClient();
@@ -9,6 +7,4 @@ public interface ClientService {
     void editClient();
 
     void removeClient();
-
-    void showClientsList();
 }

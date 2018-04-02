@@ -13,5 +13,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MenuService" />
     <orderEntry type="module" module-name="ClientService" />
+    <orderEntry type="module" module-name="DAO" />
   </component>
 </module>

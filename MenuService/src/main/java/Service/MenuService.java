@@ -6,9 +6,6 @@ public interface MenuService {
 
     void showClientMenu();
 
-    void showEditClientMenu();
-
     void showProductMenu();
 
-    void showSaveMenu();
 }

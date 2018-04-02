@@ -1,22 +1,33 @@
 package impl;
 
 import Service.ClientService;
+import Service.ProductService;
+import dao.ClientDao;
 
 public class ClientServiceImpl implements ClientService {
 
-    public void addClient() {
-        System.out.println("Клиент успешно добавлен!\n");
+    private ClientDao dao;
+    private ProductService productService;
+
+    public ClientServiceImpl(){
+        this.dao = new ClientDao();
     }
 
-    public void showClientsList() {
-        System.out.println("Список всех клиентов\n");
+    public void addClient() {
+        System.out.println("[Проверка существования клиента.]\n");
+        System.out.println("[Отправка данных в базу.]\n");
+        dao.addClient();
     }
 
     public void editClient() {
-        System.out.println("Клиент отредактирован.\n");
+        System.out.println("[Проверка существования клиента.]\n");
+        System.out.println("[Сборка изменений.]\n");
+        System.out.println("[Отправка данных в базу.]\n");
+        dao.editClient();
     }
 
     public void removeClient() {
-        System.out.println("Клиент удалён.\n");
+        System.out.println("[Отправка данных в базу.]\n");
+        dao.removeClient();
     }
 }

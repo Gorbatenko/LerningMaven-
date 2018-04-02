@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+
         <dependency>
             <groupId>MenuService</groupId>
             <artifactId>MenuService</artifactId>
@@ -16,9 +17,10 @@
         </dependency>
 
         <dependency>
-            <groupId>ProductService</groupId>
-            <artifactId>ProductService</artifactId>
+            <groupId>DAO</groupId>
+            <artifactId>DAO</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 </project>
