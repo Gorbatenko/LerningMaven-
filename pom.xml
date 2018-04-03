@@ -6,37 +6,49 @@
 
     <groupId>MavenHomeEdition</groupId>
     <artifactId>MavenHomeEdition</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
     <dependencies>
         <dependency>
+            <groupId>org.daverog</groupId>
+            <artifactId>json-ld-tree</artifactId>
+            <version>1.0.7</version>
+        </dependency>
+    </dependencies>
+    <name>MavenHomeEdition</name>
+
+    <properties>
+        <version>0.1</version>
+    </properties>
+
+    <modules>
+        <module>MenuService</module>
+        <module>ClientService</module>
+        <module>ProductService</module>
+        <module>DAO</module>
+    </modules>
+
+     <dependencies>
+         <dependency>
             <groupId>MenuService</groupId>
             <artifactId>MenuService</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
+         </dependency>
+         <dependency>
             <groupId>ClientService</groupId>
             <artifactId>ClientService</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
+         </dependency>
+         <dependency>
             <groupId>ProductService</groupId>
             <artifactId>ProductService</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
+         </dependency>
+         <dependency>
             <groupId>DAO</groupId>
             <artifactId>DAO</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>MenuService</groupId>
-            <artifactId>MenuService</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+         </dependency>
     </dependencies>
     
 </project>

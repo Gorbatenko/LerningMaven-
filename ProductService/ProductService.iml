@@ -11,8 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="MenuService" />
-    <orderEntry type="module" module-name="ClientService" />
     <orderEntry type="module" module-name="DAO" />
+    <orderEntry type="module" module-name="ClientService" />
   </component>
 </module>
