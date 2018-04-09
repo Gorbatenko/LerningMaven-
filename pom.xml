@@ -4,17 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>MavenHomeEdition</groupId>
+    <groupId>ua.skillsup</groupId>
     <artifactId>MavenHomeEdition</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
-        <dependency>
-            <groupId>org.daverog</groupId>
-            <artifactId>json-ld-tree</artifactId>
-            <version>1.0.7</version>
-        </dependency>
-    </dependencies>
     <name>MavenHomeEdition</name>
 
     <properties>
@@ -30,25 +23,25 @@
 
      <dependencies>
          <dependency>
-            <groupId>MenuService</groupId>
+            <groupId>ua.skillsup</groupId>
             <artifactId>MenuService</artifactId>
             <version>1.0-SNAPSHOT</version>
          </dependency>
-         <dependency>
-            <groupId>ClientService</groupId>
-            <artifactId>ClientService</artifactId>
-            <version>1.0-SNAPSHOT</version>
-         </dependency>
-         <dependency>
-            <groupId>ProductService</groupId>
-            <artifactId>ProductService</artifactId>
-            <version>1.0-SNAPSHOT</version>
-         </dependency>
-         <dependency>
-            <groupId>DAO</groupId>
-            <artifactId>DAO</artifactId>
-            <version>1.0-SNAPSHOT</version>
-         </dependency>
+         <!--<dependency>-->
+            <!--<groupId>ua.skillsup</groupId>-->
+            <!--<artifactId>ClientService</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+         <!--</dependency>-->
+         <!--<dependency>-->
+            <!--<groupId>ua.skillsup</groupId>-->
+            <!--<artifactId>ProductService</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+         <!--</dependency>-->
+         <!--<dependency>-->
+            <!--<groupId>ua.skillsup</groupId>-->
+            <!--<artifactId>DAO</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+         <!--</dependency>-->
     </dependencies>
     
 </project>
