@@ -1,3 +1,5 @@
+package MavenHomeEdition;
+
 import Service.CmdLineService;
 import impl.ClientServiceImpl;
 import impl.MenuServiceImpl;
